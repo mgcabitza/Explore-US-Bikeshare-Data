@@ -22,7 +22,7 @@ def get_filters():
        if (city in['chicago', 'new york city', 'washington']):
           break
        else:
-          print('Ooops! Not a valid city, please enter either .chicago, new york city, or washington')
+          print('Ooops! it is not a valid city, please enter either .chicago, new york city, or washington')
 
 
     while True:
@@ -84,7 +84,7 @@ def time_stats(df):
   # the most common month
   df['month'] = df['Start Time'].dt.month
   popular_month = df['month'].mode()[0]
-  print("The most common month: ", popular_month)  
+  print("The most common month is: ", popular_month)  
 
   # the most common day of week
   df['day_of_week'] = df['Start Time'].dt.day

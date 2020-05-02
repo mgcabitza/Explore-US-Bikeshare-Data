@@ -19,7 +19,7 @@ def get_filters():
        if (city in['chicago', 'new york city', 'washington']):
           break
        else:
-          print('Ooops! Not a valid city, please enter either .chicago, new york city, or washington')
+          print('Ooops! it is not a valid city, please enter either .chicago, new york city, or washington')
 
 
     while True:

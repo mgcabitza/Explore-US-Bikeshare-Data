@@ -1,4 +1,6 @@
 #file to insert in branch refactoring 
+#Use Python to understand U.S. bikeshare data. 
+
 import time
 import pandas as pd
 import numpy as np
